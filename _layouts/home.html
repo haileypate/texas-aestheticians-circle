@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+ <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="section hero">
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <h2 class="heading">Are you an esthetician?</h2>
+                <a class="button button-primary" href="#">Join us!</a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="section mission">
+    <div class="container">
+        <div class="row">
+            <div class="one-third column">
+                <h3 class="heading">Educate</h3>
+                <p>some clever and witty text goes here.</p>
+            </div>
+            <div class="one-third column">
+                <h3 class="heading">Enlighten</h3>
+                <p>some clever and witty text goes here.</p>
+            </div>
+            <div class="one-third column">
+                <h3 class="heading">Empower</h3>
+                <p>some clever and witty text goes here.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<div class="section about">
+    <div class="container">
+        <div class="row">
+            <div class="column about">
+            <h1>About us</h1>
+                {{ site.pages | where:"section","about" }}
+            </div>
+        </div>
+    </div>
+  </div>
+
+<div class="section contact">
+    <div class="container">
+        <div class="row">
+            <div class="column contact">
+                {{ site.pages | where:"section","contact" }}
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
